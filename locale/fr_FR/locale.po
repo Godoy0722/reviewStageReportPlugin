@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-01T00:00:00+00:00\n"
+"PO-Revision-Date: 2023-10-01T00:00:00+00:00\n"
+"Language: fr_FR\n"
+
+msgid "plugins.reports.reviewStageReport.displayName"
+msgstr "Rapport d'étape d'évaluation"
+
+msgid "plugins.reports.reviewStageReport.description"
+msgstr "Cette extension génère un rapport CSV contenant les soumissions actuellement en cours d'évaluation."
+
+msgid "plugins.reports.reviewStageReport.submissionId"
+msgstr "ID de soumission"
+
+msgid "plugins.reports.reviewStageReport.submissionTitle"
+msgstr "Titre de la soumission"
+
+msgid "plugins.reports.reviewStageReport.submissionDate"
+msgstr "Date de soumission"
+
+msgid "plugins.reports.reviewStageReport.lastModified"
+msgstr "Dernière modification"
+
+msgid "plugins.reports.reviewStageReport.section"
+msgstr "Section"
+
+msgid "plugins.reports.reviewStageReport.round"
+msgstr "Cycle d'évaluation"
+
+msgid "plugins.reports.reviewStageReport.status"
+msgstr "Statut de l'évaluation"
