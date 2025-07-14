@@ -15,6 +15,8 @@
 import('lib.pkp.classes.plugins.ReportPlugin');
 import('lib.pkp.classes.submission.reviewRound.ReviewRoundDAO');
 import('classes.journal.SectionDAO');
+import('classes.i18n.AppLocale');
+import('lib.pkp.classes.submission.reviewRound.ReviewRound');
 
 class ReviewStageReportPlugin extends ReportPlugin {
 
@@ -54,6 +56,9 @@ class ReviewStageReportPlugin extends ReportPlugin {
 	function display($args, $request) {
 		$context = $request->getContext();
 		$contextId = $context->getId();
+
+		// Load required locale components for translations
+		AppLocale::requireComponents(LOCALE_COMPONENT_PKP_SUBMISSION);
 
 		// Set up CSV file
 		header('content-type: text/comma-separated-values');
@@ -161,7 +166,6 @@ class ReviewStageReportPlugin extends ReportPlugin {
 	 * @return string
 	 */
 	private function _getStatusLabel($statusId) {
-		import('lib.pkp.classes.submission.reviewRound.ReviewRound');
 		switch ($statusId) {
 			case REVIEW_ROUND_STATUS_REVISIONS_REQUESTED:
 				return __('editor.submission.roundStatus.revisionsRequested');
