@@ -55,6 +55,8 @@ class ReviewStageReportPlugin extends ReportPlugin {
 		$context = $request->getContext();
 		$contextId = $context->getId();
 
+		AppLocale::requireComponents(LOCALE_COMPONENT_APP_EDITOR, LOCALE_COMPONENT_PKP_SUBMISSION);
+
 		// Set up CSV file
 		header('content-type: text/comma-separated-values');
 		header('content-disposition: attachment; filename=review-stage-report-' . date('Ymd') . '.csv');
