@@ -170,7 +170,7 @@ class ReviewStageReportPlugin extends ReportPlugin {
 			case REVIEW_ROUND_STATUS_REVISIONS_SUBMITTED:
 				return __('editor.submission.roundStatus.revisionsSubmitted');
 			case REVIEW_ROUND_STATUS_RESUBMIT_FOR_REVIEW:
-				return __('editor.submission.roundStatus.resubmitForReview');
+				return __('plugins.reports.reviewStageReport.resubmitForReview');
 			case REVIEW_ROUND_STATUS_RESUBMIT_FOR_REVIEW_SUBMITTED:
 				return __('editor.submission.roundStatus.submissionResubmitted');
 			case REVIEW_ROUND_STATUS_SENT_TO_EXTERNAL:
@@ -180,15 +180,15 @@ class ReviewStageReportPlugin extends ReportPlugin {
 			case REVIEW_ROUND_STATUS_DECLINED:
 				return __('editor.submission.roundStatus.declined');
 			case REVIEW_ROUND_STATUS_PENDING_REVIEWERS:
-				return __('editor.submission.roundStatus.pendingReviewers');
+				return __('plugins.reports.reviewStageReport.pendingReviews');
 			case REVIEW_ROUND_STATUS_PENDING_REVIEWS:
 				return __('editor.submission.roundStatus.pendingReviews');
 			case REVIEW_ROUND_STATUS_REVIEWS_READY:
-				return __('editor.submission.roundStatus.reviewsReady');
+				return __('plugins.reports.reviewStageReport.reviewsReady');
 			case REVIEW_ROUND_STATUS_REVIEWS_COMPLETED:
 				return __('editor.submission.roundStatus.reviewsCompleted');
 			case REVIEW_ROUND_STATUS_REVIEWS_OVERDUE:
-				return __('editor.submission.roundStatus.reviewOverdue');
+				return __('plugins.reports.reviewStageReport.reviewOverdue');
 			case REVIEW_ROUND_STATUS_PENDING_RECOMMENDATIONS:
 				return __('editor.submission.roundStatus.pendingRecommendations');
 			case REVIEW_ROUND_STATUS_RECOMMENDATIONS_READY:

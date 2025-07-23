@@ -37,3 +37,15 @@ msgstr "Cycle d'évaluation"
 
 msgid "plugins.reports.reviewStageReport.status"
 msgstr "Statut de l'évaluation"
+
+msgid "plugins.reports.reviewStageReport.pendingReviews"
+msgstr "Evaluation en cours"
+
+msgid "plugins.reports.reviewStageReport.reviewsReady"
+msgstr "De nouvelles évaluations ont été déposées"
+
+msgid "plugins.reports.reviewStageReport.resubmitForReview"
+msgstr "La soumission doit être re-soumise pour être ré-évaluée."
+
+msgid "plugins.reports.reviewStageReport.reviewOverdue"
+msgstr "Une réponse est en retard"
